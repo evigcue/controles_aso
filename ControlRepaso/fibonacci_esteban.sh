@@ -20,6 +20,6 @@ read -p "¿Hasta qué valor de fibonacci quieres?: " n
 # Recorremos los valores de Fibonacci hasta el pedido
 # El recorrer no funciona, por eso solo mostraré el valor pedido
 # Da error en i<=n
-for i in {0..$n}; do
+for i in { i=0; i<=n; i++ }; do
    fibonacci $i
 done
