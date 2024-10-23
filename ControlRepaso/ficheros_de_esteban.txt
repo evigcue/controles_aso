@@ -1,0 +1,1 @@
+nombre:ruta_absoluta:owner:grupo:texto_introducir
